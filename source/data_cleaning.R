@@ -4,7 +4,6 @@
 #   Autumn 2022
 
 library(dplyr)
-library(tidyr)
 library(lubridate)
 
 crime_data <- read.csv('https://media.githubusercontent.com/media/info201b-au2022/project-ellen-huynh2/main/data/SPD_Crime_Data__2008-Present.csv')
