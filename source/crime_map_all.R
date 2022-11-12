@@ -48,6 +48,7 @@ for (n in unique(crime_data$Year)) {
   groups <- c(groups, paste(n))
 }
 
+# add layer control so that the user can filter which year they want to see
 crime_map <- addLayersControl(
               crime_map, baseGroups = groups,
               options = layersControlOptions(collapsed = FALSE)

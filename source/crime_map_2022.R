@@ -40,8 +40,6 @@ groups <- c()
 
 # loop through each crime in the dataframe and visualize the location where each
 # crime occurred
-
-
 for (n in unique(crime_data_2022$Offense)) {
   df <- crime_data_2022 %>% filter(Offense == n)
   crime_map_2022 <- addCircles(
@@ -50,6 +48,7 @@ for (n in unique(crime_data_2022$Offense)) {
   groups <- c(groups, paste(n))
 }
 
+# add layer control so that the user can filter which crimes they want to see
 crime_map_2022 <- addLayersControl(
   crime_map_2022, overlayGroups = groups,
   options = layersControlOptions(collapsed = FALSE)
