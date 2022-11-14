@@ -37,4 +37,7 @@ total_crime_by_hour %>%
     labs(title = "Crime Committed by Hour in Seattle") +
   scale_x_continuous(breaks = unique(as.numeric(factor(total_crime_by_hour$Hour))), 
                      labels = unique(total_crime_by_hour$Hour))
+
+#This pie chart shows the proportion of common categories of crime committed.
+# The chart reveals that assault offenses comprise the majority of crime at around 74 while drunkenness had the lowest percentage.
          
