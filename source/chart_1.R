@@ -38,6 +38,6 @@ total_crime_by_hour %>%
   scale_x_continuous(breaks = unique(as.numeric(factor(total_crime_by_hour$Hour))), 
                      labels = unique(total_crime_by_hour$Hour))
 
-#This pie chart shows the proportion of common categories of crime committed.
-# The chart reveals that assault offenses comprise the majority of crime at around 74 while drunkenness had the lowest percentage.
+#This line chart showcases the number of crimes committed by hours of the day. 
+#The chart shows that the time of day where crime is most committed is midnight while the time of day where crime is least committed is five in the morning. 
          
