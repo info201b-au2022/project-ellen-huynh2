@@ -1,8 +1,4 @@
 ```{r}
-library(dplyr)
-library(lubridate)
-
-source('data_cleaning_small.R')
-
+source('dynamic_summary.Rmd')
 
 ```
