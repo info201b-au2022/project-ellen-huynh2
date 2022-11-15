@@ -1,4 +1,0 @@
-```{r}
-source('dynamic_summary.Rmd')
-
-```
