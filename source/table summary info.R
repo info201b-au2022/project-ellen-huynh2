@@ -15,5 +15,10 @@ summary_table <- crime_data %>%
     most_frequent_neighborhood_that_year = names(which.max(MCPP))
   )
     
-  
+#Descriptive Paragraph:
+#This table provides information whose purpose is to provide
+#summarizing information of our findings to be included in
+#our report. For example, it includes the number of crimes for
+#a year, the most frequently committed crime, and neighborhood
+#with most frequent crime in a given year.
   
