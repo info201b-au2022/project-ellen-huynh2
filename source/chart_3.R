@@ -38,15 +38,11 @@ total_crimes_in_month <- crime_data %>%
 ggplot(total_crimes_in_month, aes(x=month, y=number_of_crimes)) +
   geom_bar(stat = "identity", width=0.5)
 
-#problems with the data: it's important to note what month data collection
-#started and till what month is it updated till. Some months may appear to have
-#a higher count because there were "more" of that month.
+#Descriptive Paragraph:
 
-#Solution:to only calculate
-#for just one year (in the past)
-
-
-
-
-
+#This bar chart showcases the total of crimes occurred in each month.
+#The chart shows crime spikes in certain months. However, this caused 
+#us to observe that some months may appear to have a higher count because 
+#there were "more" of that month represented in the datset. Therefore, in 
+#a future iteration, we will only calculate for just one year.
 
